@@ -1,0 +1,131 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(163, 161, 75);
+  margin: 0;
+}
+
+header {
+  background-color: #90ee90;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  margin: 10px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  background-color: rgb(245, 250, 145);
+  font-size: 1rem;
+}
+
+section {
+  background-color: #ffffe0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.titleEvenement {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: justify;
+}
+
+.imgCut {
+  width: 20vw;
+}
+
+aside {
+  flex: 1;
+  background-color: #ffffe0;
+  margin: 0 0 0 2px;
+}
+
+aside ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+}
+
+aside li {
+  flex: 1;
+  align-self: stretch;
+}
+
+footer {
+  display: flex;
+  background-color: #e4c791;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  * {
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+  }
+  section {
+    margin: 0;
+  }
+
+  aside {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  aside ul {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    display: none;
+  }
+}
