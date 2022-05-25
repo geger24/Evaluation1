@@ -61,6 +61,12 @@ section {
     padding: 10px;
 }
 
+p {
+    margin-left: 12vw;
+    margin-right: 12vw;
+
+}
+
 .coq {
     float:left;
     width: 15%;
